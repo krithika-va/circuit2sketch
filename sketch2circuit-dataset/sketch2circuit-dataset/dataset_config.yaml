@@ -1,0 +1,61 @@
+dataset_name: sketch2circuit_segmentation
+num_classes: 16
+class_names:
+- background
+- wire
+- junction
+- resistor
+- capacitor
+- inductor
+- ac_source
+- dc_source
+- ground
+- and_gate
+- or_gate
+- not_gate
+- nand_gate
+- nor_gate
+- xor_gate
+- xnor_gate
+class_ids:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+class_mapping:
+  background: 0
+  wire: 1
+  junction: 2
+  resistor: 3
+  capacitor: 4
+  inductor: 5
+  ac_source: 6
+  dc_source: 7
+  ground: 8
+  and_gate: 9
+  or_gate: 10
+  not_gate: 11
+  nand_gate: 12
+  nor_gate: 13
+  xor_gate: 14
+  xnor_gate: 15
+splits:
+  train: 925
+  valid: 173
+  test: 58
+mask_format: single_channel_png
+mask_dtype: uint8
+image_format: jpg
+class_weights_file: class_weights.json

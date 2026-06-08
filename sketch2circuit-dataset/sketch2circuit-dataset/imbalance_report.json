@@ -1,0 +1,117 @@
+{
+  "total_pixels": 450578805,
+  "per_class": {
+    "background": {
+      "class_id": 0,
+      "pixel_count": 414004878,
+      "pixel_frequency": 0.9188290114977778,
+      "instance_count": 0,
+      "weight": 0.1
+    },
+    "wire": {
+      "class_id": 1,
+      "pixel_count": 8836031,
+      "pixel_frequency": 0.019610400893135663,
+      "instance_count": 20729,
+      "weight": 0.22584981877044116
+    },
+    "junction": {
+      "class_id": 2,
+      "pixel_count": 339593,
+      "pixel_frequency": 0.0007536817005850952,
+      "instance_count": 4311,
+      "weight": 5.876493331723563
+    },
+    "resistor": {
+      "class_id": 3,
+      "pixel_count": 1994211,
+      "pixel_frequency": 0.004425887276255704,
+      "instance_count": 2118,
+      "weight": 1.000704539288972
+    },
+    "capacitor": {
+      "class_id": 4,
+      "pixel_count": 157498,
+      "pixel_frequency": 0.00034954595789298167,
+      "instance_count": 181,
+      "weight": 12.67073867604668
+    },
+    "inductor": {
+      "class_id": 5,
+      "pixel_count": 363125,
+      "pixel_frequency": 0.0008059078588927413,
+      "instance_count": 201,
+      "weight": 5.4956722891566265
+    },
+    "ac_source": {
+      "class_id": 6,
+      "pixel_count": 241236,
+      "pixel_frequency": 0.0005353913617840946,
+      "instance_count": 43,
+      "weight": 8.272463479745975
+    },
+    "dc_source": {
+      "class_id": 7,
+      "pixel_count": 1997021,
+      "pixel_frequency": 0.00443212369920507,
+      "instance_count": 879,
+      "weight": 0.9992964520653513
+    },
+    "ground": {
+      "class_id": 8,
+      "pixel_count": 99091,
+      "pixel_frequency": 0.0002199193546176678,
+      "instance_count": 148,
+      "weight": 20.139225560343522
+    },
+    "and_gate": {
+      "class_id": 9,
+      "pixel_count": 6147000,
+      "pixel_frequency": 0.013642452622688277,
+      "instance_count": 693,
+      "weight": 0.3246487717585814
+    },
+    "or_gate": {
+      "class_id": 10,
+      "pixel_count": 3060792,
+      "pixel_frequency": 0.00679302258791334,
+      "instance_count": 431,
+      "weight": 0.6519933402857823
+    },
+    "not_gate": {
+      "class_id": 11,
+      "pixel_count": 1329341,
+      "pixel_frequency": 0.002950296341613317,
+      "instance_count": 433,
+      "weight": 1.5012069890268938
+    },
+    "nand_gate": {
+      "class_id": 12,
+      "pixel_count": 4456691,
+      "pixel_frequency": 0.009891035598090327,
+      "instance_count": 416,
+      "weight": 0.4477797540821206
+    },
+    "nor_gate": {
+      "class_id": 13,
+      "pixel_count": 2507166,
+      "pixel_frequency": 0.00556432298230273,
+      "instance_count": 323,
+      "weight": 0.7959648463643811
+    },
+    "xor_gate": {
+      "class_id": 14,
+      "pixel_count": 3287517,
+      "pixel_frequency": 0.007296208706488091,
+      "instance_count": 297,
+      "weight": 0.6070283438838491
+    },
+    "xnor_gate": {
+      "class_id": 15,
+      "pixel_count": 1757614,
+      "pixel_frequency": 0.0039007915607570578,
+      "instance_count": 168,
+      "weight": 1.1354119846564719
+    }
+  }
+}
